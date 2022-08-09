@@ -1,0 +1,26 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 500px) 
+{
+  body 
+  {
+    padding-top: 56px;
+  }
+}
+
+.main-header {
+  height: 55vh;
+  min-height: 300px;
+  background: url("../../img/img3.jpg") center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card 
+{
+  height: 100%;
+}
